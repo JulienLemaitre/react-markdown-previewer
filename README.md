@@ -8,4 +8,4 @@ Project made with:
 + [Marked](https://github.com/chjj/marked)
 
 
-You can view the [demo of my Pomodoro](http://pomodoro.lemaitre-creation.fr/).
+You can view the [demo of my markdownPreviewer](http://markdown-previewer.lemaitre-creation.fr/).
