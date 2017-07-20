@@ -6,6 +6,7 @@ Project made with:
 + React
 + Redux
 + [Marked](https://github.com/chjj/marked)
++ SCSS
 
 
 You can view the [demo of my markdownPreviewer](http://markdown-previewer.lemaitre-creation.fr/).
