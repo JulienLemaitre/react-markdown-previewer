@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TextArea from './components/text_area';
-import MarkdownArea from './components/markdown_area';
+import TextArea from './containers/text_area';
+import MarkdownArea from './containers/markdown_area';
 import './App.css';
 
 class App extends Component {
