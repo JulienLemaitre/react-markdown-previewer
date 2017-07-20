@@ -1,0 +1,79 @@
+html {
+  min-height: 100%; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: 'Open Sans', sans-serif; }
+
+#root, .App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+
+.App {
+  justify-content: center; }
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center; }
+  .App-header span {
+    font-size: 1.5em;
+    display: inline-block;
+    color: aqua; }
+
+.App-intro {
+  font-size: large; }
+
+.App-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex: 1;
+  text-align: left;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto; }
+  .App-content h2 {
+    color: firebrick; }
+
+.input-area {
+  width: 50%;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative; }
+  .input-area textarea {
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+    flex: 1;
+    right: 0;
+    left: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em; }
+    .input-area textarea:focus, .input-area textarea:active {
+      outline: none; }
+
+.result {
+  width: 50%;
+  text-align: left;
+  border-left: 1px solid #555555;
+  padding-left: 1em; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
