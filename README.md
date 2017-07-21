@@ -2,6 +2,8 @@
 
 Type your text on the left panel, your markdowns will show in real-time on the right panel.
 
+This project is part of the Data Visualization Certification project at Free Code Camp.
+
 Project made with:
 + React
 + Redux
